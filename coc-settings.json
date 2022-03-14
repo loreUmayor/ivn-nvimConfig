@@ -1,0 +1,13 @@
+{
+  "pairs.enableCharacters": [
+    "(",
+    "[",
+    "{",
+    "'",
+    "\"",
+    "`"
+  ],
+  "prettier.tslintIntegration": true,
+  "prettier.eslintIntegration": false,
+  "coc.preferences.formatOnSaveFiletypes": ["css", "htmldjango", "kotlin", "html", "typescript", "typescriptreact","javascript","javascriptreact"]
+  }
