@@ -59,8 +59,8 @@ let g:kite_supported_languages = ['python', 'css', 'javascript']
 
 
 "coc 
-autocmd Filetype python let b:coc_suggest_disable = 0
-autocmd Filetype css let b:coc_suggest_disable = 1
+autocmd Filetype python let b:coc_suggest_disable = 1
+autocmd Filetype css let b:coc_suggest_disable = 0
 autocmd Filetype scss setl iskeyword+=@-@
 autocmd Filetype javascript let b:coc_suggest_disable = 0
 "autocmd Filetype html let b:coc_suggest_disable = 1

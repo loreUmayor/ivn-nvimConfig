@@ -32,7 +32,7 @@ Plug 'christoomey/vim-tmux-navigator'
 " autocomplete
 Plug 'sirver/ultisnips'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-let g:coc_global_extensions = ['coc-json', 'coc-tsserver', 'coc-emmet', 'coc-tslint', 'coc-prettier']
+let g:coc_global_extensions = ['coc-tsserver', 'coc-prettier']
 
 " test
 Plug 'tyewang/vimux-jest-test'
